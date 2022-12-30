@@ -1,0 +1,391 @@
+* {
+
+    /* color: red; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 120vh;
+    border: 2px solid rgb(179, 255, 0);
+    background-color: rgba(27, 31, 34, 0.85);
+}
+
+.navbar {
+    border-bottom: 2px solid rgb(110, 110, 110);
+    background-color: rgba(27, 31, 34, 0.85);
+}
+
+.navbar ul {
+    /* margin-left: 50px; */
+    padding: 15px;
+    display: flex;
+}
+
+.navbar h1:hover {
+    color: white;
+}
+
+.navbar h1 {
+    background-color: rgba(27, 31, 34, 0.85);
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: rgb(179, 255, 0);
+    border-bottom: 2px solid rgb(110, 110, 110);
+    /* color: rgb(238, 9, 9); */
+    /* margin-left: 36%; */
+    padding: 5px;
+}
+
+.navbar li {
+    margin-left: 5rem;
+    /* margin-top: 20px;  */
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 6px;
+    color: rgb(179, 255, 0);
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: white;
+    padding: 6px;
+    border: 1px solid rgb(179, 255, 0);
+    border-radius: 12px;
+}
+
+.container {
+    overflow: auto;
+    /* background-image: repeating-linear-gradient(to left, white, rgb(51, 255, 0) , white); */
+    background-size: cover;
+}
+
+.slide h1 {
+    /* margin-left: 30%; */
+    /* width: 200px; */
+    background-color: rgba(13, 15, 17, 0.295);
+    border-radius: 30px;
+}
+
+.slide {
+    width: 40%;
+    height: 250px;
+    position: relative;
+    left: 72%;
+    top: 9.4rem;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-image: url(04.jpg);
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
+    animation: slider 20s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(02.webp);
+    }
+
+    20% {
+        background-image: url(01.jpg);
+    }
+
+    40% {
+        background-image: url(03.jpg);
+    }
+
+    60% {
+        background-image: url(04.jpg);
+    }
+
+    80% {
+        background-image: url(05.jpg);
+    }
+}
+
+.form h1:hover {
+    border-bottom: 1px solid rgb(179, 255, 0);
+    ;
+    border-right: 1px solid rgb(179, 255, 0);
+    ;
+    border-left: 1px solid rgb(179, 255, 0);
+    ;
+    color: rgb(179, 255, 0);
+}
+
+.form h1,
+.holiday h1 {
+
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    color: rgb(179, 255, 0);
+    border: 1px solid rgb(179, 255, 0);
+    font-size: 22px;
+    background-color: rgba(13, 15, 17, 0.295);
+    border-radius: 30px;
+
+}
+
+.form:hover,
+.slide:hover,
+.holiday:hover {
+    border: 2px solid rgb(179, 255, 0);
+}
+
+.form {
+    margin-top: 25px;
+    margin-left: 30px;
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 40%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+::placeholder,
+input,
+select {
+    background: black;
+    border-radius: 6px;
+    padding: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(179, 255, 0);
+}
+
+.ticket {
+    display: inline;
+
+}
+
+.ticket label:hover {
+    color: rgb(179, 255, 0);
+}
+
+.ticket label {
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#date {
+    color: black;
+    background-color: white;
+}
+
+.ticket select {
+    margin-left: 55px;
+}
+
+#address1 {
+    border: 1.2px solid gray;
+    border-radius: 6px;
+    padding: 2px;
+    margin-left: 2px;
+}
+
+#address2 {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 2px;
+    margin-left: 1px;
+}
+
+#date {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 2px;
+    margin-left: 7px;
+}
+
+.search1 {
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(179, 255, 0);
+    margin-top: 2%;
+    margin-left: 29%;
+}
+
+.search1:hover {
+    /* background-color: rgb(179, 255, 0); */
+    cursor: pointer;
+    font-size: 16px;
+    border: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 6px;
+    color: rgb(179, 255, 0);
+    margin-left: 29%;
+    border: 2px solid rgb(179, 255, 0);
+    border-radius: 20px
+}
+
+.foot {
+    display: flex;
+}
+
+.holiday {
+    border-radius: 15px;
+    margin: 10px 35px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 30vw;
+    height: 36.5vh;
+}
+
+
+.holiday ul li {
+    font-size: 13px;
+    width: fit-content;
+    padding: 4.5px;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: circle;
+}
+
+.holiday ul li:hover {
+    border-radius: 15px;
+    border: 1px solid rgb(179, 255, 0);
+}
+
+.holiday table th:hover {
+    border: 2px solid rgb(179, 255, 0);
+    border-radius: 10px;
+    color: rgb(179, 255, 0);
+}
+
+.holiday table th {
+    /* background-image: linear-gradient(white,rgb(0, 238, 255)); */
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 200px;
+    height: 20px;
+}
+
+#int-pack {
+    width: fit-content;
+    height: fit-content;
+}
+
+.Slider h1 {
+    color: rgb(179, 255, 0);
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+.Slider:hover,.food-m:hover,.food-n:hover{
+    border-color:rgb(179, 255, 0);
+}
+.Slider {
+    width: 40%;
+    height: 300px;
+    position: relative;
+    left: 72%;
+    top: 9.5rem;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+    background-image: url(01\ food.jpg);
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 15px rgb(255, 255, 255);
+    animation: food 20s infinite linear;
+}
+
+@keyframes food {
+    0% {
+        background-image: url(foo2.webp);
+    }
+
+    25% {
+        background-image: url(foo3.jpg);
+    }
+
+    50% {
+        background-image: url(foo4.webp);
+    }
+
+    75% {
+        background-image: url(foo5.png);
+    }
+
+}
+
+
+.food-m {
+    /* margin-top: 25px; */
+    margin-left: 30px;
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 40%;
+    height: 500px;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px rgb(255, 255, 255);
+}
+.food-m img{
+    width: 100%;
+    height: 500px;
+}
+.food-n {
+    background-color:rgb(179, 255, 0);
+    display: flex;
+    margin-top: 15px;
+    margin-left: 51.7%;
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 40%;
+    height: 180px;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px rgb(255, 255, 255);
+}
+.food-n  h1 {
+    margin-top: 65px;
+    width: fit-content;
+    height: fit-content;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(190, 183, 183, 0.329);
+}
+.food-n ul{ 
+    margin-top:10px ;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: cursive;
+    margin-left: 50px;
+}
+
+.c-pic:hover{
+    border-color:rgb(179, 255, 0);
+}
+.c-pic {
+    margin-top: 25px;
+    margin-left: 30px;
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    width: 60%;
+    height: 500px;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px rgb(255, 255, 255);
+}
+.c-pic img{
+    border-radius: 15px;
+    width: 100%;
+    height: 500px;
+}

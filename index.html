@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Reservation System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="container">
+        <div class="navbar">
+            <hr>
+            <a href="index.html" style="text-decoration:none ;">
+                <h1 align="center">CoatCard Railway</h1>
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meals.html">Meals</a></li>
+                <li><a href="#">Holidays Packages</a></li>
+                <li><a href="#">Services at Station</a></li>
+                <li><a href="contact us.html">Contact us</a></li>
+                <li><a href="About me.html">About me</a></li>
+                <li><a href="#">Online Services</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="form">
+        <h1 align="center">Book Your Ticket Here</h1>
+        <div class="ticket">
+            <br>
+            <label for="Starting Point">Journey Starts at:</label>
+            <input type="search" id="address1" placeholder="From"><br>
+            <label for="Starting Point">Journey Overs at:</label>
+            <input type="search" id="address2" placeholder="To"><br>
+            <label for="Starting Point">Date of Journey:</label>
+            <input type="date" id="date" placeholder="Enter Starting Station Name">
+            <br><br>
+            <label for="t-class">Choose Class as per Your Preference</label>
+            <select name="Class" class="t-class">
+                <option value="t-class">All Class</option>
+                <option value="t-class">First Class (1AC)</option>
+                <option value="t-class">Two-Tier Class (2AC)</option>
+                <option value="t-class">Three-Tier Class (3AC)</option>
+                <option value="t-class">First Class (FC)</option>
+                <option value="t-class">AC Chair Class (CC)</option>
+                <option value="t-class">Sleeper Class (SL)</option>
+                <option value="t-class">Second Class (2S)</option>
+                <option value="t-class">General Class (2S)</option>
+            </select><br>
+            <input type="button" value="search" class="search1">
+        </div>
+    </div>
+
+    <div class="slide">
+        <h1 align="center" style="color:white ;font-size: 15px;">CoatCard Railway</h1>
+    </div><br><br>
+    <hr>
+    <div class="foot">
+        <div class="holiday">
+            <h1 align="center">Tourist Trains</h1>
+            <ul>
+                <li>Luxury Tourist Trains</li>
+                <li>Mahaparinirvan Express</li>
+                <li>Bharat Darshan Trains</li>
+                <li>Punj Takht Train</li>
+                <li>Steam train</li>
+                <li>Palace on Wheels</li>
+                <li>Deccan Odyssey</li>
+            </ul>
+        </div>
+        <div class="holiday" id="int-pack">
+            <h1 align="center">International Packages</h1>
+            <!-- <img src="price.png" width="100%"
+            height="100%"> -->
+            <table>
+                <th style=" border: .5px solid black; width: 400px;">International Holiday Packages</th>
+                <th style=" border: .5px solid black; width: 220px;">No. of Days</th>
+                <th style=" border: .5px solid black;">Price</th>
+                <tbody>
+                    <tr>
+                        <th>MaldivesPackages</th>
+                        <th>3 Nights/4 Days</th>
+                        <th>Rs.44,990</th>
+                    </tr>
+                    <tr>
+                        <th>Bali Packages</th>
+                        <th>6 Nights/7 Days</th>
+                        <th>Rs.16,990</th>
+                    </tr>
+                    <tr>
+                        <th>Dubai Packages</th>
+                        <th>5 Nights/6 Days</th>
+                        <th>Rs.33,000</th>
+                    </tr>
+                    <tr>
+                        <th>Thailand Packages</th>
+                        <th>3 Nights/4 Days</th>
+                        <th>Rs.10,990</th>
+                    </tr>
+                    <tr>
+                        <th>Europe Packages</th>
+                        <th>6 Nights/7 Days</th>
+                        <th>Rs.32,990</th>
+                    </tr>
+                    <tr>
+                        <th>Bangkok Packages</th>
+                        <th>3 Nights/4 Days</th>
+                        <th>Rs.10,990</th>
+                    </tr>
+                    <tr>
+                        <th>Malaysia Packages</th>
+                        <th>5 Nights/6 Days</th>
+                        <th>Rs.14,990</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="holiday" id="int-pack">
+            <h1 align="center">National Packages</h1>
+            <table>
+                <th style=" border: .5px solid black; width: 400px;">National Holiday Packages</th>
+                <th style=" border: .5px solid black; width: 220px;"> No. of Days</th>
+                <th style=" border: .5px solid black;">Price</th>
+                <tbody>
+                    <tr>
+                        <th>MaldivesPackages</th>
+                        <th>3 Nights/4 Days</th>
+                        <th>Rs.44,990</th>
+                    </tr>
+                    <tr>
+                        <th>Bali Packages</th>
+                        <th>6 Nights/7 Days</th>
+                        <th>Rs.16,990</th>
+                    </tr>
+                    <tr>
+                        <th>Dubai Packages</th>
+                        <th>5 Nights/6 Days</th>
+                        <th>Rs.33,000</th>
+                    </tr>
+                    <tr>
+                        <th>Thailand Packages</th>
+                        <th>3 Nights/4 Days</th>
+                        <th>Rs.10,990</th>
+                    </tr>
+                    <tr>
+                        <th>Europe Packages</th>
+                        <th>6 Nights/7 Days</th>
+                        <th>Rs.32,990</th>
+                    </tr>
+                    <tr>
+                        <th>Bangkok Packages</th>
+                        <th>3 Nights/4 Days</th>
+                        <th>Rs.10,990</th>
+                    </tr>
+                    <tr>
+                        <th>Malaysia Packages</th>
+                        <th>5 Nights/6 Days</th>
+                        <th>Rs.14,990</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
